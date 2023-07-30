@@ -1,0 +1,56 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.vcentry</groupId>
+  <artifactId>G1_CucumberSetup</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <properties>
+  <cucumberversion>7.12.1</cucumberversion>
+  <selenium>4.9.1</selenium>
+  <webdrivermanager>5.3.3</webdrivermanager>
+  </properties>
+  
+  <dependencies>
+  <dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>${cucumberversion}</version>
+</dependency>
+  
+  <dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>${cucumberversion}</version>
+</dependency>
+  
+  <dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-core</artifactId>
+    <version>${cucumberversion}</version>
+</dependency>
+  
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>${selenium}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>${webdrivermanager}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.11</version>
+</dependency>
+		
+
+	</dependencies>
+
+
+
+</project>
